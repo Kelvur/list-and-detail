@@ -20,7 +20,7 @@ function AppBar({ className, ...restProps }){
   return (
     <MuiAppBar position="static" className={clsx(classes.root, className)}>
       <Typography variant="h6">
-        <Link to={PATHS.LIST} className={classes.titleHeader}>List and Defail</Link>
+        <Link to={PATHS.LIST} className={classes.titleHeader}>List and Detail</Link>
       </Typography>
     </MuiAppBar>
   );
