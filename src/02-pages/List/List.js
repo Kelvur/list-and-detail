@@ -113,7 +113,7 @@ function List() {
           </Grid>
           <Grid item xs={6} md={2}>
             Sort:
-            <IconButton disabled={isLoading} onClick={handleAscendClick} className={clsx({ [classes.rotate]: !ascend })} ><SortIcon /></IconButton>
+            <IconButton disabled={isLoading} onClick={handleAscendClick} className={clsx({ [classes.rotate]: ascend })} ><SortIcon /></IconButton>
           </Grid>
         </Grid>
       </Container>
